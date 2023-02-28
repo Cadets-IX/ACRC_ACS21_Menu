@@ -1,53 +1,116 @@
-<table>
-	<tbody>
-		<tr>
-			<th>Column 1</th>
-			<th>Column 2</th>
-			<th>Column 3</th>
-			<th>Column 4</th>
-			<th>Column 5</th>
-		</tr>
-		<tr>
-			<td>Row 1, Cell 1</td>
-			<td>Row 1, Cell 2</td>
-			<td>Row 1, Cell 3</td>
-			<td>Row 1, Cell 4</td>
-			<td>Row 1, Cell 5</td>
-		</tr>
-		<tr>
-			<td>Row 2, Cell 1</td>
-			<td>Row 2, Cell 2</td>
-			<td>Row 2, Cell 3</td>
-			<td>Row 2, Cell 4</td>
-			<td>Row 2, Cell 5</td>
-		</tr>
-		<tr>
-			<td>Row 3, Cell 1</td>
-			<td>Row 3, Cell 2</td>
-			<td>Row 3, Cell 3</td>
-			<td>Row 3, Cell 4</td>
-			<td>Row 3, Cell 5</td>
-		</tr>
-		<tr>
-			<td>Row 4, Cell 1</td>
-			<td>Row 4, Cell 2</td>
-			<td>Row 4, Cell 3</td>
-			<td>Row 4, Cell 4</td>
-			<td>Row 4, Cell 5</td>
-		</tr>
-		<tr>
-			<td>Row 5, Cell 1</td>
-			<td>Row 5, Cell 2</td>
-			<td>Row 5, Cell 3</td>
-			<td>Row 5, Cell 4</td>
-			<td>Row 5, Cell 5</td>
-		</tr>
-		<tr>
-			<td>Row 6, Cell 1</td>
-			<td>Row 6, Cell 2</td>
-			<td>Row 6, Cell 3</td>
-			<td>Row 6, Cell 4</td>
-			<td>Row 6, Cell 5</td>
-		</tr>
-	</tbody>
-</table>
+
+   <nav class="Syllabus">
+     <h2>Jump to Syllabus</h2>
+      <input id="toggle" type="checkbox" checked>
+   <ul>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/military-knowledge.html">Military Knowledge</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/drill---turnout.html">Drill & Turnout</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/skill-at-arms.html">Skill at Arms</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/shooting.html">Shooting</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/navigation.html">Navigation</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/fieldcraft---tactics.html">Fieldcraft</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/first-aid.html">First Aid</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/expedition.html">Expedition</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/adventurous-training.html">Adventurous Training</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/keeping-active.html">Keeping Active</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/community-engagement.html">Community Engagement</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/communications-and-information-systems-(cis).html">Communications and Information Systems (CIS)</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/music---piping-and-drumming.html">Music - Piping & Drumming</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/music---military-bands.html">Music - Military Bands</a></li>
+<li><a href="https://prdresourcecentre-cadetdigital.ocecdn.ocp.oraclegovcloud.uk/site/authsite/Cadet-Forces-Resource-Centre/-army-cadet-syllabus-21-(acs21)/music---corps-of-drums.html">Music - Corps of Drums</a></li>
+   </ul>
+</nav>
+<style>
+  .Syllabus {
+  margin: auto;
+
+  position: relative;
+  width: 500px;
+  min-width: 320px;
+  height: 800px;
+}
+
+.Syllabus h2 {
+  border-radius: 4px;
+  position: relative;
+  background: #003e2f;
+  height: 50px;
+  color: white;
+  font-weight: 200;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35);
+  transition: all .4s;
+}
+
+.Syllabus:hover h2{
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
+ }
+.Syllabus:hover:active h2{
+  transform: translateY(10px);
+  box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
+ }
+
+.Syllabus input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+  height: 40px;
+}
+
+#toggle:checked ~ul {
+  height: 0%;
+}
+
+.Syllabus ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 0;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  margin-bottom: 22px;
+  text-align: center;
+  transition: all .4s ease-out;
+  height: 100%;
+  
+}
+.Syllabus ul li {
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  margin-left: 35px;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 5px;
+  background: #003e2f;
+  transition: background 3s;
+  box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35);
+}
+
+.Syllabus ul li:hover {
+  background: purple;
+  transition: background .45s;
+}
+
+.Syllabus ul a {
+  display: block;
+  color: white;
+text-align: left;
+    margin-left: 20px;
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+
+</style>
